@@ -8,7 +8,7 @@ import {
 import Landing from './components/Landing';
 import Pricing from './components/Pricing';
 
-const generateClassName = createGenerateClassName({
+const generateClassName = createGenerateClassName({ 
   productionPrefix: 'ma',
 });
 
