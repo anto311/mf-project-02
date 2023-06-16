@@ -14,7 +14,7 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    container: node:14-alpine
     strategy:
       matrix:
         node-version: 16.x
