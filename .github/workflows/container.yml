@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: amazon/aws-cli
     container: node:14-alpine
     steps:
       - uses: actions/checkout@v2
