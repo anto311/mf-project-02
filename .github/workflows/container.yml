@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: mlungwsr/ubuntu-awscli
+    runs-on: ubuntu-awscli
     container: node:14-alpine
     steps:
       - uses: actions/checkout@v2
