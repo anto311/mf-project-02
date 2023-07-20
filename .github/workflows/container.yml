@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     container: node:14-alpine
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - run: npm install
       - run: npm run build
         env:
