@@ -20,10 +20,10 @@ jobs:
       - uses: actions/setup-node@v2
       - name: Install dependencies
         run: npm install
-      - name: Build project
+      #- name: Build project
         #run: npm run build
-        env:
-          PRODUCTION_DOMAIN: ${{ secrets.PRODUCTION_DOMAIN }}
+      #  env:
+      #    PRODUCTION_DOMAIN: ${{ secrets.PRODUCTION_DOMAIN }}
       - name: Set AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
